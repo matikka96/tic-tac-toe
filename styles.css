@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	outline: 0px solid black;
+	text-align: center;
+	font-family: sans-serif;
+}
+h1 {padding-top: 2vh;}
+h2 {
+	padding: 1vh 0 2vh 0;
+	color: grey;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+#game {
+	margin: 0 4vw;
+	filter: blur(0px);
+	animation-duration: 1s;
+}
+.main {
+	width: 400px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.main button {
+	height: 133px;
+	width: 33.3%;
+	line-height: 133px;
+	font-size: 80px;
+	display: block;
+	background-color: lightgrey;
+	outline: 4px solid black;
+	cursor: pointer;
+}
+.main button:hover {opacity: 0.8;}
+.button-style {
+	display: inline-block;
+	padding: 1.5vh 2vw;
+	background-color: gold;
+	border-radius: 5px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bolder;
+	cursor: pointer;
+	border: 4px solid black;
+	margin: 3vh 0 2vh 0;
+}
+#message {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+#message-box {
+	margin: auto;
+	width: 300px;
+	background-color: limegreen;
+	border: 4px solid black;
+	border-radius: 5px;
+}
+@media screen and (max-width: 500px) {
+	.main {width: 100%;}
+}
+@media screen and (max-height: 650px) {
+	.main button {
+		height: 20vh;
+		line-height: 20vh;
+		font-size: 12vh;
+	}
+	body {display: block;}
+}
