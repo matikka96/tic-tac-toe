@@ -10,4 +10,4 @@ HTML & CSS handles design and responsiveness of the game. JavaScript on the othe
 Screenshot of the gameplay:
 ![Screenshot](screenshot.png)
 
-Real world demo: www.tikka.top/stuff/tictac/
+Demo: www.tikka.top/stuff/tictac/
