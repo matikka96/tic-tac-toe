@@ -22,6 +22,7 @@ body {
 	margin: 0 4vw;
 	filter: blur(0px);
 	animation-duration: 1s;
+	transition-duration: 0.4s;
 }
 .main {
 	width: 400px;
@@ -38,6 +39,7 @@ body {
 	background-color: lightgrey;
 	outline: 4px solid black;
 	cursor: pointer;
+	transition-duration: 0.2s;
 }
 .main button:hover {opacity: 0.8;}
 .button-style {
@@ -51,7 +53,9 @@ body {
 	cursor: pointer;
 	border: 4px solid black;
 	margin: 3vh 0 2vh 0;
+	transition-duration: 0.2s;
 }
+.button-style:hover {padding: 1.5vh 3vw;}
 #message {
 	display: none;
 	flex-direction: column;
