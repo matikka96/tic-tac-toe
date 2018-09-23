@@ -20,7 +20,7 @@ function messageOpen(messageText, messageButton) {
 	document.getElementById("message-text").innerHTML = messageText;
 	document.getElementById("message-button").innerHTML = messageButton;
 	document.getElementById("message").style.display = "flex";
-	document.getElementById("game").style.filter = "blur(10px)";
+	document.getElementById("game").style.filter = "blur(15px)";
 }
 // Function closes notification
 function messageClose(status) {
