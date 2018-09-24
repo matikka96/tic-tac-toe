@@ -40,8 +40,11 @@ body {
 	outline: 4px solid black;
 	cursor: pointer;
 	transition-duration: 0.2s;
+	border: none;
 }
-.main button:hover {opacity: 0.8;}
+.main button:hover {
+	opacity: 0.8;
+}
 .button-style {
 	display: inline-block;
 	padding: 1.5vh 2vw;
